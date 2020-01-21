@@ -12,7 +12,8 @@ const evenOdd = (int) => {
     };
 };
 
-console.log(evenOdd(3));
+console.log(evenOdd(32));
+console.log(evenOdd(21));
 
 
 
@@ -21,9 +22,12 @@ console.log(evenOdd(3));
 // Challenge #2
 // given a number, find its opposite. 2 = -2
 
-// const numOpposite = () => {
+const numOpposite = (num) => {
+    return -num;
+};
 
-// };
+console.log(numOpposite(3));
+console.log(numOpposite(-3));
 
 
 
@@ -32,10 +36,12 @@ console.log(evenOdd(3));
 // A palindrome is a word or sentence that's spelled the same way both forward and backward, ignoring punctuation, case, and spacing.
 // Console true if the given string is a palindrome. Otherwise, console false.
 
-// const isPalindrome = () => {
+const isPalindrome = (str) => {
 
-// };
+};
 
+console.log(isPalindrome('racecar'));
+console.log(isPalindrome('popsicle'));
 
 
 // Challenge #4
